@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+    <head th:replace="~{general/fragmentos :: head}"></head>
+
+    <body>
+
+        <header th:replace="~{general/fragmentos :: header}"></header>
+
+        <nav th:replace="~{general/fragmentos :: navbar}"></nav>
+
+        <section th:replace="~{general/fragmentos :: mensajes}"></section>
+
+        <main class="container my-5">
+
+            <section class="hero text-center">
+
+                <h1 class="mb-3">Bienvenidos a Huellitas</h1>
+
+                <p class="lead">
+                    Atención veterinaria para perros y gatos,
+                    con cariño, compromiso y mucho amor.
+                </p>
+
+                <hr>
+
+                <h3 class="mt-4">
+                    Campaña del mes: Jornada de vacunación
+                </h3>
+
+                <p>
+                    Protegé a tu mejor amigo con nuestros servicios
+                    de vacunación. Su salud y bienestar son nuestra prioridad.
+                </p>
+
+                <a class="btn btn-primary mt-2"
+                   th:href="@{/servicio/listado}">
+                    Ver nuestros servicios
+                </a>
+
+            </section>
+
+            <section class="row g-4 mt-3">
+
+                <article class="col-md-4">
+
+                    <section class="card p-4 h-100 text-center">
+
+                        <h4>Horario de atención</h4>
+
+                        <p>
+                            Lunes a sábado
+                            de 8:00 a. m. a 6:00 p. m.
+                        </p>
+
+                    </section>
+
+                </article>
+
+                <article class="col-md-4">
+
+                    <section class="card p-4 h-100 text-center">
+
+                        <h4>Ubicación</h4>
+
+                        <p>
+                            Santo Domingo de Heredia, Costa Rica.
+                        </p>
+
+                    </section>
+
+                </article>
+
+                <article class="col-md-4">
+
+                    <section class="card p-4 h-100 text-center">
+
+                        <h4>Nuestras especialidades</h4>
+
+                        <p>
+                            Atención integral en consulta general,
+                            porque la salud de tu mascota merece
+                            lo mejor.
+                        </p>
+
+                        <p>
+                            Contamos con el 99% de las vacunas
+                            disponibles en el mercado para
+                            proteger a tus mascotas.
+                        </p>
+
+                        <p>
+                            ¡Somos expertos en estética canina
+                            y felina! Consentimos a tus mascotas
+                            para que luzcan y se sientan increíbles.
+                        </p>
+
+                    </section>
+
+                </article>
+
+            </section>
+
+            <section class="mt-5 text-center">
+
+                <h3>Cuidado y bienestar de tus mascotas</h3>
+
+                <p>
+                    En Huellitas creemos que cada mascota
+                    merece una vida llena de salud,
+                    cariño y bienestar.
+                </p>
+
+                <p>
+                    Conocé algunos consejos importantes
+                    para cuidar a tus compañeros de cuatro patas.
+                </p>
+
+                <section class="row justify-content-center mt-4">
+
+                    <section class="col-lg-9">
+
+                        <section class="card p-3">
+
+                            <section class="ratio ratio-16x9">
+
+                                <iframe
+                                    src="https://www.youtube.com/embed/vrt8Pp7Nu8A"
+                                    title="Video sobre cuidado de mascotas"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    allowfullscreen>
+                                </iframe>
+
+                            </section>
+
+                        </section>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+        </main>
+
+        <footer th:replace="~{general/fragmentos :: footer}"></footer>
+
+    </body>
+
+</html>

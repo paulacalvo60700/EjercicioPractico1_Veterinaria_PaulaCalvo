@@ -1,0 +1,12 @@
+VETERINARIA - VERSIÓN SIN MYSQL
+
+Abrir la carpeta EjercicioPractico1_Veterinaria_PaulaCalvo en NetBeans como proyecto Maven.
+Ejecutar la clase VeterinariaApplication o Run Project.
+Abrir http://localhost:8086
+
+Incluye datos iniciales de tipos, servicios y citas. Los cambios del CRUD se guardan en memoria,
+por lo que se pierden al cerrar o reiniciar la aplicación.
+No requiere instalar ni iniciar MySQL.
+
+IMPORTANTE: esta variante no cumple el requisito de persistencia con MySQL ni las asociaciones JPA
+solicitadas en el PDF. Conserva la organización domain/repository/service/controller y las vistas.
